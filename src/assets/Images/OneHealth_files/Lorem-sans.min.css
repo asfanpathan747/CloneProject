@@ -1,0 +1,1367 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" href="css/onehealth.jpg" type="image/x-icon" />
+      <title>OneHealth</title>
+      <!--sdfsdfsdfsdf-->
+     
+     
+     
+     
+     
+   </head>
+   
+   <style type="text/css">
+    *,*:after,*:before{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body{
+  font-family: arial;
+  font-size: 16px;
+  margin: 0;
+  background: #fff;
+}
+
+.profile-container{
+  display: flex;
+}
+.profile-box{
+  flex-basis: calc(33.333%);
+  position: relative;
+  overflow: hidden;
+  height: 80vh;
+  background-size:  auto 120%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: all 1s ease-out;
+  position: relative;
+  border-right: 2px solid #fff;
+  display: flex;
+  align-items: flex-end;
+  padding: 40px;
+}
+.profile-box-content{
+  /*background:rgba(0,0,0,0.8);*/
+   background:transparent;
+  padding: 30px;
+  color: #fff;
+  font-size: 18px;
+  opacity: 0;
+  position: relative;
+  left: -30px
+  
+}
+.profile-box-content h2{
+  margin:0 0 20px;
+}
+.profile-box-content p:last-child{
+  margin: 0;
+}
+
+.right-header{background-color: #EDF9F8!important;}
+.dropdown{background-color: #EDF9F8!important;}
+.left-header a.new-clr, .right-header a.new-clr {background-color:#EDF9F8!important; }
+
+.nav-container{background-color: #EDF9F8!important;}
+header.site-header{background-color: #EDF9F8!important;}
+
+
+.profile-box:hover .profile-box-content{
+  opacity: 1;
+  transition: all 0.3s ease-out 0.6s ;
+  left: 0;
+}
+.profile-box:last-child{
+  border:0px;
+}
+.profile-container:hover .profile-box{
+  flex-basis: calc(15%);
+}
+.profile-container:hover .profile-box:hover{
+  flex-basis: calc(70%);
+  transition: all 0.4s ease-out;
+  z-index: 1;
+}
+
+.banner_spacer{
+    margin-top:0px;
+}
+
+@media(max-width:768px){
+    .profile-container{
+  display: flex;
+  width:100%;
+  flex-direction:column;
+  
+}
+  .profile-box{
+  flex-basis: calc(33.333%);
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+     background-size: auto 210%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: all 1s ease-out;
+  position: relative;
+  border-right: 2px solid #fff;
+  display: flex;
+  align-items: flex-end;
+  padding: 40px;
+}
+    
+    
+}
+
+
+
+  </style>
+   
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+      <link href="css/normalize-banner.css" type="text/css" rel="stylesheet">
+      <link href="css/style-banner.css" type="text/css" rel="stylesheet">
+       <link type="text/css" rel="stylesheet" href="css/slick.css">
+        <link type="text/css" rel="stylesheet" href="css/slick-theme.css">
+      <link type="text/css" rel="stylesheet" href="css/styles1.css">
+        <link type="text/css" rel="stylesheet" href="css/customstyle.css">
+      <link type="text/css" rel="stylesheet" href="css/home/base.min.css">
+      <link type="text/css" rel="stylesheet" href="css/home/clientLib-v2.min.css">
+      <link type="text/css" rel="stylesheet" href="css/home/homepage.min.css">
+      <link type="text/css" rel="stylesheet" href="css/home/base-v2.min.css">
+      <link type="text/css" rel="stylesheet" href="css/home/Lorem-sans.min.css">
+      <link type="text/css" rel="stylesheet" href="css/home/clientLib.min.css">
+      <link type="text/css" rel="stylesheet" href="css/home/clientLib-v2.min.css">
+      <link type="text/css" rel="stylesheet" href="css/home/dm-font-icons.min.css">
+      <link type="text/css" rel="stylesheet" href="css/home/networking-next.css">
+      <link type="text/css" rel="stylesheet" href="css/home/overrides.css">
+      <link type="text/css" rel="stylesheet" href="css/home/responsive.min.css">
+      <link rel="stylesheet" href="css/clientLib-v3.css">
+      <script>document.getElementsByTagName("html")[0].className += " js";</script>
+      <link rel="stylesheet" href="tabassests/css/style.css">
+      <link rel="stylesheet" href="css/custom-styles.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/fontawesome.min.css">
+      
+      
+      
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      
+      <script type="text/javascript" src="js/slick.min.js"></script>
+      <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+      <script type="text/javascript" src="js/custom-banner.js"></script>
+      <!--sdfsdfsdfsdf-->
+    
+
+      <script type="text/javascript" src="js/utils-load.js"></script>
+      <!--<script type="text/javascript" src="js/jquery.min.js"></script>-->
+       
+      <script type="text/javascript" src="js/menupage.js"></script>
+      <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+      <script type="text/javascript" src="js/menupage2.js"></script>
+      <script type="text/javascript" src="js/menupage3.js"></script>
+      
+      <script type="text/javascript" src="js/customfun.js"></script>
+     
+          
+   
+   <body>
+      <div class="page">
+         
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project About</title>
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!--sdfsdfsdfsdf-->
+
+          <style>
+            .new-demo1:hover {
+              background: #f15a24 !important;
+              color: white !important;
+            }
+          </style>
+         <header class="site-header border-bottom" data-section="header">
+            
+
+<div class="inner-container">
+               <nav class="nav-container ">
+                  <a class="klogo desktop" href="index.php"> <img src="images/logo.svg"
+                     alt="LOGO"> </a>
+                  <a class="klogo mobile" href="index.php"> <img src="images/logo.svg"
+                     alt="LOGO"> </a>
+
+
+
+                   <button class="mobile-switch hamburger hamburger--squeeze" type="button"> <span
+                            class="open ms-lab">Menu</span> <span class="close ms-lab">Close</span> <span
+                            class="hamburger-box"> <span class="hamburger-inner2"> <svg class="line1" width="33px" height="4px" xmlns="http://www.w3.org/2000/svg"
+                                    version="1.1">
+        <line class="stroke-1" x1="3" x2="30" y1="2" y2="2"></line>
+        </svg> <svg class="line2" width="33px" height="4px" xmlns="http://www.w3.org/2000/svg"
+                                    version="1.1">
+        <line class="stroke-2" x1="3" x2="30" y1="2" y2="2"></line>
+        </svg> <svg class="line3" width="33px" height="4px" xmlns="http://www.w3.org/2000/svg"
+                                    version="1.1">
+        <line class="stroke-3" x1="3" x2="30" y1="2" y2="2"></line>
+        </svg> </span> </span> </button>
+
+
+
+
+
+                  <div class="left-header">
+                     <div class="main-nav" id="">
+                        <ul class="nav-list">
+                           <li class="nav-item wdrop" data-sub="products">
+                              <a class="c-black sheader-md"
+                                 href="#">Services</a>
+                              <div class="uline"></div>
+                           </li>
+                           <li class="nav-item wdrop" data-sub="solutions"> <a class="c-black sheader-md "
+                              href="#">About</a> </li>
+                           <li class="nav-item wdrop sdrop" data-dropw="270" data-sub="support"> <a
+                              class="c-black sheader-md " href="#">Support</a> </li>
+                        </ul>
+                        <div class="dropdown-holder">
+                           <div class="dropdown_arrow"></div>
+                           <div class="dropdown-bg" style="opacity: 0; left: 0px; width: 1170px; height: 444px;"></div>
+                           <div class="dropdown-cont" style="opacity: 0; left: 0px; width: 1170px; height: 444px;">
+                              
+                              <div class="dropdown-mmenu" data-sub="products" style="opacity: 0;">
+                                 <div class="dropdown-mmenu-content products fullwidth"
+                                    style="width: 1170px; z-index: 1;">
+                                    <div class="top-section">
+                                       <div class="mleft-cont" style="">
+                                          <div class="col-item">
+                                             <img class="limg" src="images/logo.svg">
+                                             <span class="ltitle">The OneHealth Platform </span>
+                                             <p class="lcopy">OneHealth is built for the workflows of Laboratories, Doctors and patients, allowing you to efficiently manage all of the major functions.</p>
+                                          </div>
+                                       </div>
+                                       <div class="mright-cont">
+                                          <div class="mcol-left">
+                                             <a href="one_connect.php" class="col-mitem mt0">
+                                                <div class="moduleicon"> <img class=""
+                                                   src="images/one-connect.svg"> </div>
+                                                <div class="moduledesc">
+                                                   <span class="mheader"> One Connect
+                                                   </span>
+                                                   <p class="mcopy">video consultation with doctor
+
+</p>
+                                                </div>
+                                             </a>
+                                             <a href="one_doctor.php" class="col-mitem">
+                                                <div class="moduleicon"> <img class="" src="images/one_doctor.svg">
+                                                </div>
+                                                <div class="moduledesc">
+                                                   <span class="mheader"> One Doctor
+                                                   </span>
+                                                   <p class="mcopy">Certified and integrated Cloud based management solution
+                                                   </p>
+                                                </div>
+                                             </a>
+                                             <a href="one_lab.php" class="col-mitem">
+                                                <div class="moduleicon"> <img class=""
+                                                   src="images/one_lab.svg"> </div>
+                                                <div class="moduledesc">
+                                                   <span class="mheader">One Lab
+                                                   </span>
+                                                   <p class="mcopy">Designed for laboratories trusted by practices 
+                                                   </p>
+                                                </div>
+                                             </a>
+                                             <a href="one_record.php" class="col-mitem">
+                                                <div class="moduleicon"> <img class="" src="images/one_record.svg">
+                                                </div>
+                                                <div class="moduledesc">
+                                                   <span class="mheader">One Record
+                                                   </span>
+                                                   <p class="mcopy">Easily manage your medical records and appointments
+                                                   </p>
+                                                </div>
+                                             </a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="dropdown-mmenu" data-sub="solutions" style="opacity: 0;">
+                                 <div class="dropdown-mmenu-content solutions fullwidth"
+                                    style="width: 1170px; z-index: 1;">
+                                    <div class="top-section">
+                                       <div class="mleft-cont" style="">
+                                          <div class="col-item">
+                                             <img class="limg" src="images/logo.svg">
+                                             <span class="ltitle">The OneHealth Platform </span>
+                                             <p class="lcopy">OneHealth is built for the workflows of Laboratories, Doctors and patients, allowing you to efficiently manage all of the major functions.</p>
+                                          </div>
+                                       </div>
+                                       <div class="mright-cont">
+                                          <div class="mcol-left">
+                                          
+                                           <a href="about.php" class="col-item no-mt"> <span class="it-header">About Us</span>
+                                                        
+                                                    </a> 
+                                          
+                                           <a href="mission.php" class="col-item no-mt"> <span class="it-header">Mission & Vision</span>
+                                                        
+                                                    </a> 
+                                                    <a href="customer.php" class="col-item"> <span class="it-header">Customers</span>
+                                                       
+                                                    </a>
+                                                     <a href="career.php" class="col-item"> <span class="it-header">Career</span>
+                                                        
+                                                    </a>
+                                                     <a href="contacts.php" class="col-item"> <span class="it-header">Contact</span>
+                                                       
+                                                    </a> 
+
+
+
+
+                                                </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="dropdown-mmenu" data-sub="support" style="opacity: 0;">
+                                 <div class="dropdown-mmenu-content support" style="z-index: 1;">
+                                    <div class="top-section">
+                                       <div class="support-cont"> <a class="aitem" href="product-update.php">Product Update</a> <a
+                                          class="aitem" href="form.php">Contact</a>
+                                          <a class="aitem" href="termsofservice.php">Terms Of Use</a>
+                                          <a class="aitem" href="privacypolicy.php">Privacy Policy
+                                          Services</a>
+                                          <a class="aitem" href="ticket.php">Technical Support</a> 
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="right-header" style="width: 44% !important">
+                     <div class="topnav" id="myTopnav">
+                      <a  href="https://onehealthforall.org/" class="new-demo1"  target="_blank"style="padding: 11px 11px;right: 392px;position: absolute;border: 2px solid #f15a24;border-radius: 50px;color: #f15a24;">
+                        Consult Doctor
+                      </a>
+                    <!--   login.php -->
+                        <a href="demo.php" class="new-demo"  >Demo
+                        </a>
+                        <a href="pricing.php" class="new-pricing"  >Pricing
+                        </a>
+                        <div class="dropdown">
+                           <button class="dropbtn new-dropbtn drpn-new">
+                              My account
+                              <svg width="50" height="50" viewBox="0 0 24 24" focusable="false" role="presentation">
+                                 <path d="M8.292 10.293a1.009 1.009 0 000 1.419l2.939 2.965c.218.215.5.322.779.322s.556-.107.769-.322l2.93-2.955a1.01 1.01 0 000-1.419.987.987 0 00-1.406 0l-2.298 2.317-2.307-2.327a.99.99 0 00-1.406 0z" fill="currentColor" fill-rule="evenodd"></path>
+                              </svg>
+                           </button>
+                           <div class="dropdown-content">
+                          <!--   login.php -->
+                              <a href="https://onehealthforall.org/"  target="_blank"> Login
+                              </a>
+                            <!--   signup.php -->
+                              <a href="https://onehealthforall.org/"  target="_blank"> SignUp
+                              </a>
+                          <!--     http://lab-compare.s3-website.ap-south-1.amazonaws.com/#/login -->
+                           </div>
+                        </div>
+                        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+                     </div>
+                  </div>
+                  <div class="mob-nav">
+                     <ul class="nav-list">
+                        <li class="nav-item wmdrop d1" data-sub="solutions">
+                           <a class="main-lvl" href="#">
+                              Services
+                              <span class="indicator">
+                                 <svg class="line1" width="25px" height="4px" xmlns="http://www.w3.org/2000/svg"
+                                    version="1.1">
+                                    <line class="stroke-1" x1="3" x2="22" y1="2" y2="2"></line>
+                                 </svg>
+                                 <svg class="line2" width="25px" height="4px" xmlns="http://www.w3.org/2000/svg"
+                                    version="1.1">
+                                    <line class="stroke-1" x1="3" x2="22" y1="2" y2="2"></line>
+                                 </svg>
+                              </span>
+                           </a>
+                           <ul class="sub-nav">
+                              <li class="sn-item"><a href="one_connect.php"> One Connect
+                                 </a>
+                              </li>
+                              <li class="sn-item"><a href="one_doctor.php"> One Doctor
+                                 </a>
+                              </li>
+                              <li class="sn-item"><a href="one_lab.php">One Lab
+                                 </a>
+                              </li>
+                              <li class="sn-item"><a href="one_record.php">One Record
+                                 </a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="nav-item wmdrop sdrop d3" data-dropw="500" data-sub="about"> <a class="main-lvl"
+                                    href="#">About <span class="indicator">
+                                        <svg class="line1" width="25px" height="4px" xmlns="http://www.w3.org/2000/svg"
+                                            version="1.1">
+                                            <line class="stroke-1" x1="3" x2="22" y1="2" y2="2"></line>
+                                        </svg>
+                                        <svg class="line2" width="25px" height="4px" xmlns="http://www.w3.org/2000/svg"
+                                            version="1.1">
+                                            <line class="stroke-1" x1="3" x2="22" y1="2" y2="2"></line>
+                                        </svg>
+                                    </span> </a>
+                                <ul class="sub-nav">
+                                    <li class="sn-item"><a href="mission.php">Mission & Vision</a></li>
+                                    <li class="sn-item"><a href="customer.php">Customers</a></li>
+                                    <li class="sn-item"><a href="career.php">Career</a></li>
+                                    <li class="sn-item"><a href="contacts.php">Contact</a></li>
+                                    
+                                </ul>
+                            </li>
+                        <li class="nav-item wmdrop sdrop d3" data-dropw="500" data-sub="about">
+                           <a class="main-lvl"
+                              href="#">
+                              Support
+                              <span class="indicator">
+                             <svg class="line1" width="25px" height="4px" xmlns="http://www.w3.org/2000/svg"
+                                    version="1.1">
+                                    <line class="stroke-1" x1="3" x2="22" y1="2" y2="2"></line>
+                                    </svg> <svg class="line2" width="25px" height="4px" xmlns="http://www.w3.org/2000/svg"
+                                    version="1.1">
+                                    <line class="stroke-1" x1="3" x2="22" y1="2" y2="2"></line>
+                                    </svg> 
+                              </span>
+                           </a>
+                           
+                           <ul class="sub-nav">
+                                    <li class="sn-item"><a href="product-update.php">Product Update</a></li>
+                                    <li class="sn-item"><a href="form.php">Contact</a></li>
+                                    <li class="sn-item"><a href="terms.php">Terms Of Use</a></li>
+                                    <li class="sn-item"><a href="privacy.php">Privacy Policy Services</a></li>
+                                    <li class="sn-item"><a href="ticket.php">Technical Support</a></li>
+                                    
+                                </ul>
+                        </li>
+                        <!-- <li class="nav-item wmdrop d4" data-sub="resources">
+                           <a  href="https://d2cv89syvqsqi1.cloudfront.net" class="new-demo1" style="padding: 11px 11px;right: 405px;position: absolute;border: 2px solid #f15a24;border-radius: 50px;color: #f15a24;">
+                        Consult Doctor
+                      </a>
+                        </li> -->
+
+                         <li class="nav-item wmdrop d4" data-sub="resources">
+                         
+                           <a class="main-lvl" href="https://onehealthforall.org/">
+                             Consult Doctor
+                              <span class="indicator">
+                                 <!-- <svg class="line1" width="25px" height="4px" xmlns="http://www.w3.org/2000/svg"
+                                    version="1.1">
+                                    <line class="stroke-1" x1="3" x2="22" y1="2" y2="2"></line>
+                                    </svg> <svg class="line2" width="25px" height="4px" xmlns="http://www.w3.org/2000/svg"
+                                    version="1.1">
+                                    <line class="stroke-1" x1="3" x2="22" y1="2" y2="2"></line>
+                                    </svg> --> 
+                              </span>
+                           </a>
+                           <!--  <ul class="sub-nav">
+                              <li class="sn-item"><a href="#">Resource
+                                Library</a></li>
+                              <li class="sn-item"><a href="#">MACRA / MIPS</a></li>
+                              <li class="sn-item"><a href="#">Go Practice Blog</a></li>
+                              <li class="sn-item"><a href="#">Meaningful Use</a></li>
+                              <li class="sn-item"><a href="#">Switch
+                                to a Platform You Can Trust</a></li>
+                              <li class="sn-item"><a href="#">Insurance
+                                Reimbursements Guide</a></li>
+                              <li class="sn-item"><a href="#">Patient
+                                Collections Guide</a></li>
+                              <li class="sn-item"><a href="#">Optimizing
+                                Your Care Delivery Guide</a></li>
+                              </ul> -->
+                        </li>
+                        <li class="nav-item wmdrop d4" data-sub="resources">
+                         
+                           <a class="main-lvl" href="demo.php">
+                              Demo
+                              <span class="indicator">
+                                 <!-- <svg class="line1" width="25px" height="4px" xmlns="http://www.w3.org/2000/svg"
+                                    version="1.1">
+                                    <line class="stroke-1" x1="3" x2="22" y1="2" y2="2"></line>
+                                    </svg> <svg class="line2" width="25px" height="4px" xmlns="http://www.w3.org/2000/svg"
+                                    version="1.1">
+                                    <line class="stroke-1" x1="3" x2="22" y1="2" y2="2"></line>
+                                    </svg> --> 
+                              </span>
+                           </a>
+                           <!--  <ul class="sub-nav">
+                              <li class="sn-item"><a href="#">Resource
+                                Library</a></li>
+                              <li class="sn-item"><a href="#">MACRA / MIPS</a></li>
+                              <li class="sn-item"><a href="#">Go Practice Blog</a></li>
+                              <li class="sn-item"><a href="#">Meaningful Use</a></li>
+                              <li class="sn-item"><a href="#">Switch
+                                to a Platform You Can Trust</a></li>
+                              <li class="sn-item"><a href="#">Insurance
+                                Reimbursements Guide</a></li>
+                              <li class="sn-item"><a href="#">Patient
+                                Collections Guide</a></li>
+                              <li class="sn-item"><a href="#">Optimizing
+                                Your Care Delivery Guide</a></li>
+                              </ul> -->
+                        </li>
+                        <li class="nav-item wmdrop d5" data-sub="blog">
+                           <a class="main-lvl" href="pricing.php">
+                              Pricing
+                              <span
+                                 class="indicator">
+                                 <!-- <svg class="line1" width="25px" height="4px" xmlns="http://www.w3.org/2000/svg"
+                                    version="1.1">
+                                    <line class="stroke-1" x1="3" x2="22" y1="2" y2="2"></line>
+                                    </svg> <svg class="line2" width="25px" height="4px" xmlns="http://www.w3.org/2000/svg"
+                                    version="1.1">
+                                    <line class="stroke-1" x1="3" x2="22" y1="2" y2="2"></line>
+                                    </svg> --> 
+                              </span>
+                           </a>
+                           <!--  <ul class="sub-nav">
+                              <li class="sn-item"><a class="aitem" href="#">Go Practice
+                                Blog</a></li>
+                              <li class="sn-item"><a class="aitem" href="#">Growth</a></li>
+                              <li class="sn-item"><a class="aitem" href="#">Revenue</a></li>
+                              <li class="sn-item"><a class="aitem" href="#">Patients</a></li>
+                              <li class="sn-item"><a class="aitem" href="#">Management</a></li>
+                              <li class="sn-item"><a class="aitem" href="#">Compliance</a></li>
+                              <li class="sn-item"><a class="aitem" href="#">Filter
+                                by role</a></li>
+                              <li class="sn-item"><a class="aitem" href="#">Search
+                                Blog</a></li>
+                              </ul> -->
+                        </li>
+                        <li class="nav-item wmdrop d6" data-sub="support">
+                           <a class="main-lvl" href="#">
+                              My account
+                              <span class="indicator">
+                                 <svg class="line1" width="25px" height="4px" xmlns="http://www.w3.org/2000/svg"
+                                    version="1.1">
+                                    <line class="stroke-1" x1="3" x2="22" y1="2" y2="2"></line>
+                                 </svg>
+                                 <svg class="line2" width="25px" height="4px" xmlns="http://www.w3.org/2000/svg"
+                                    version="1.1">
+                                    <line class="stroke-1" x1="3" x2="22" y1="2" y2="2"></line>
+                                 </svg>
+                              </span>
+                           </a>
+                           <ul class="sub-nav">
+                              <li class="sn-item"><a href="https://onehealthforall.org/">Login
+                                 </a>
+                              </li>
+                              <li class="sn-item"><a href="https://onehealthforall.org/">SignUp
+                                </a>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </div>
+               </nav>
+            </div>
+         </header>
+         <!--!!!!!!!!!!! ~ NAV ~ !!!!!!!!!!!!-->
+           <!-- header close -->
+         <!--!!!!!!!!!!! ~ NAV ~ !!!!!!!!!!!!-->
+         <nav id="prime-nav" class="with-primary">
+            <div class="navpart--top">
+               <ul id="subTopNav" class="menu-top">
+                  <li class="search-function"> <a href="javascript:void(0);" class="search submenu-link"
+                     data-secondarysearch="true"><i class="icon-search"></i>Search</a> </li>
+                  <li> <a href="#" class="submenu-link">Practice Login</a> </li>
+                  <li> <a href="#" class="submenu-link">Patient Portal</a> </li>
+                  <li> <a href="#" class="submenu-link">Download PM</a> </li>
+                  <li> <a href="#" class="help submenu-link">Help</a> </li>
+                  <li class="submenu-link"> <span class="call-link action action-contact"><a href="#">Call
+                     888-775-2736</a></span> 
+                  </li>
+                  <li class="submenu-link"> <span class="divider">or</span> </li>
+                  <li> <span class="live-chat-link">Live Chat</span> </li>
+               </ul>
+            </div>
+            <div class="navpart--bottom">
+               <div class="logo header">
+                  <a href="#" title="home" rel="home" id="Lorem_logo"> <img class="hlogo"
+                     src="images/Loremlogo.svg" alt="home"> </a>
+                  <!-- if there is a site name -->
+                  <!-- end site name conditional -->
+               </div>
+               <div class="nav-menu">
+                  <ul id="primary" class="links clearfix main-menu">
+                     <li class="menu-1891 first"><a href="#">Clinical</a></li>
+                     <li class="menu-1901"><a href="javascript:void(0)">Billing</a></li>
+                     <li class="menu-10501"><a href="#">Engage</a></li>
+                     <li class="menu-1896"><a href="javascript:void(0)">Solutions</a></li>
+                     <li class="menu-1886"><a href="javascript:void(0)" title="">Products</a></li>
+                     <li class="menu-14181"><a href="#" title="">Resources</a>
+                     </li>
+                     <li class="menu-1906"><a href="#" title="">More</a></li>
+                     <li class="menu-2064 last"><a href="#">Plans &amp;
+                        Pricing</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+         <div class="nav-border"></div>
+         <!--!!!!!!!!!!! ~ END NAV ~ !!!!!!!!!!!!-->
+         <!--!!!!!!!!!!! ~ HEADER ~ !!!!!!!!!!!!-->
+         <div id="sub_nav" class="sub-nav--sticky">
+            <div class="sub-nav--left"> </div>
+            <div class="sub-nav--right">
+               <div id="block-block-31" class="block block-block clearfix">
+                  <div class="block-inner">
+                     <div class="content">
+                        <!-- Contact us Modal -->
+                        <div id="contact-us-modal">
+                           <a href="javascript:void(0);"
+                              class="contact-dialog-close">Close</a>
+                          
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!--!!!!!!!!!!! ~ MOBILE CONTAINER NAV ~ !!!!!!!!!!!!-->
+         <section id="mobile_container" class="display_mobile mobile-navigation-container">
+            <span
+               class="close-icon mobile-navigation-close-trigger">
+               <svg version="1.1" id="Layer_1" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 31.028 31.027"
+                  enable-background="new 0 0 31.028 31.027" xml:space="preserve">
+                  <path fill-rule="evenodd" clip-rule="evenodd" fill="#3D4345" d="M20.147,15.507L30.549,5.105c0.639-0.639,0.639-1.675,0-2.313
+                     l-2.313-2.313c-0.639-0.638-1.674-0.638-2.313,0L15.521,10.88L5.144,0.503c-0.637-0.639-1.67-0.639-2.308,0L0.529,2.81
+                     c-0.638,0.638-0.637,1.671,0,2.309l10.377,10.377L0.479,25.922c-0.639,0.639-0.639,1.676,0,2.314l2.313,2.312
+                     c0.639,0.638,1.674,0.638,2.313,0l10.427-10.427L25.91,30.499c0.637,0.638,1.67,0.638,2.308,0l2.307-2.309
+                     c0.637-0.636,0.637-1.669,0-2.307L20.147,15.507z"></path>
+               </svg>
+            </span>
+            <div class="menu-container">
+               <a href="#" class="btn-sm-orng">Plans
+               &amp; Pricing</a>
+               <div id="block-menu-menu-mobile-menu" class="block block-menu clearfix">
+                  <div class="block-inner">
+                     <div class="content">
+                        <ul class="menu">
+                           <li class="first leaf"><a href="#" title="">Clinical</a></li>
+                           <li class="leaf"><a href="#" title="">Billing</a></li>
+                           <li class="leaf"><a href="#" title="">Managed
+                              Billing</a>
+                           </li>
+                           <li class="leaf"><a href="#" title="">Engage</a>
+                           </li>
+                           <li class="leaf"><a href="#" title="">Billing
+                              Companies</a>
+                           </li>
+                           <li class="leaf"><a href="#" title="">Resources</a>
+                           </li>
+                           <li class="last expanded toplevel expand-more">
+                              <a href="javascript:void(0);" title=""
+                                 target="_self" class="expand-trigger">More</a>
+                              <ul class="menu">
+                                 <li class="first expanded">
+                                    <a href="javascript:void(0);" title="" target="_self"
+                                       class="expand-trigger">Modules</a>
+                                    <ul class="menu">
+                                       <li class="first leaf"><a href="#" title="">Clinical</a></li>
+                                       <li class="leaf"><a href="#" title="">Billing</a></li>
+                                       <li class="leaf"><a href="#" title="">Managed Billing</a></li>
+                                       <li class="leaf"><a href="#" title="">Engage</a></li>
+                                       <li class="last leaf"><a href="#" title="">Billing Companies</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="expanded">
+                                    <a href="#" title="" target="_self"
+                                       class="expand-trigger">Solutions</a>
+                                    <ul class="menu">
+                                       <li class="first leaf"><a href="#" title="">Doctors</a></li>
+                                       <li class="leaf"><a href="#" title="">Practice Managers</a></li>
+                                       <li class="leaf"><a href="#" title="">Billers</a></li>
+                                       <li class="leaf"><a href="#" title="">Billing Companies</a></li>
+                                       <li class="leaf"><a href="#" title="">New Practices</a></li>
+                                       <li class="last leaf"><a href="#" title="">Your Specialty</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="expanded">
+                                    <a href="javascript:void(0);" title="" target="_self"
+                                       class="expand-trigger">Products</a>
+                                    <ul class="menu">
+                                       <li class="first leaf"><a href="#" title="">EHR
+                                          / EMR</a>
+                                       </li>
+                                       <li class="leaf"><a href="#" title="">Practice Management</a></li>
+                                       <li class="leaf"><a href="#" title="">Medical Billing Services</a></li>
+                                       <li class="leaf"><a href="#" title="">Engage</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="expanded">
+                                    <a href="javascript:void(0);" title="" target="_self"
+                                       class="expand-trigger">Support</a>
+                                    <ul class="menu">
+                                       <li class="first leaf"><a href="#" title="">Help
+                                          Center</a>
+                                       </li>
+                                       <li class="leaf"><a href="#" title="">Contact Support</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="expanded">
+                                    <a href="javascript:void(0);" title="" target="_self"
+                                       class="expand-trigger">Learn</a>
+                                    <ul class="menu">
+                                       <li class="first leaf"><a href="#" title="">Resource Library</a></li>
+                                       <li class="leaf"><a href="#" title="">Go
+                                          Practice Blog</a>
+                                       </li>
+                                       <li class="leaf"><a href="#" title="">Meaningful Use Expert</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="last expanded">
+                                    <a href="javascript:void(0);" title="" target="_self"
+                                       class="expand-trigger">About</a>
+                                    <ul class="menu">
+                                       <li class="first leaf"><a href="#" title="">Contact Us</a></li>
+                                       <li class="leaf"><a href="#" title="">Why
+                                          Lorem</a>
+                                       </li>
+                                       <li class="leaf"><a href="#" title="">Company</a></li>
+                                       <li class="leaf"><a href="#" title="">Team</a>
+                                       </li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                              <span class="icon-close">
+                                 <svg version="1.1" id="Layer_1" x="0px" y="0px" width="100%" height="100%"
+                                    viewBox="0 0 24.391 24.02" enable-background="new 0 0 24.391 24.02"
+                                    xml:space="preserve">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" fill="#7F8384" d="M24.145,1.682l-1.43-1.435c-0.394-0.396-1.125-0.305-1.633,0.204
+                                       l-8.93,8.954L3.291,0.542C2.786,0.038,2.059-0.053,1.667,0.339L0.244,1.762c-0.393,0.393-0.302,1.119,0.202,1.624l8.867,8.866
+                                       l-8.429,8.452c-0.507,0.507-0.598,1.241-0.203,1.637l1.429,1.433c0.395,0.396,1.126,0.305,1.633-0.205l8.432-8.455l8.365,8.364
+                                       c0.504,0.507,1.232,0.597,1.625,0.203l1.422-1.42c0.393-0.393,0.302-1.122-0.202-1.625l-8.369-8.369l8.927-8.95
+                                       C24.449,2.809,24.54,2.077,24.145,1.682z"></path>
+                                 </svg>
+                              </span>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <!-- /block-inner /block -->
+               <ul class="mobile-menu-subnav">
+                  <li class="search-function"> <a href="#" class="search submenu-link"
+                     data-secondarysearch="true">Search</a> </li>
+                  <li> <a href="#" class="ehr-login submenu-link" data-login="true">Practice Login</a> </li>
+                  <li> <a href="#" class="ehr-login submenu-link" data-login="true">Patient Portal</a> </li>
+                  <li> <a href="#" class="help submenu-link">Help</a> </li>
+                  <li class="call-link"> <a class="submenu-link" href="tel:+18887752736"><i
+                     class="icon-pricing-contact"></i> &nbsp;1-888-775-2736</a> </li>
+               </ul>
+            </div>
+         </section>
+         <!--!!!!!!!!!!! ~ END MOBILE CONTAINER NAV ~ !!!!!!!!!!!!-->
+         <!--!!!!!!!!!!! ~ END MOBILE NAV ~ !!!!!!!!!!!!-->
+         <!--!!!!!!!!!!! ~ MAIN ~ !!!!!!!!!!!!-->
+         <div id="main">
+            <div class="container">
+               <section id="content">
+                  <div id="content-header">
+                     <!-- <h1 class="title">Medical Office Software for Independent Medical Practices</h1> -->
+                     <div class="tabs"></div>
+                  </div>
+                  <!-- /#content-header -->
+                  <div id="content-area">
+                     <div id="block-system-main" class="block block-system clearfix">
+                        <div class="block-inner">
+                           <div class="content">
+                              <article id="node-47" class="node node-page node--page--full">
+                                 <header> <span property="dc:title"
+                                    content="Medical Office Software for Independent Medical Practices"
+                                    class="rdf-meta element-hidden"></span><span property="sioc:num_replies"
+                                    content="0" datatype="xsd:integer"
+                                    class="rdf-meta element-hidden"></span> </header>
+                                 <div class="content">
+                                    <div
+                                       class="field field-name-body field-type-text-with-summary field-label-hidden">
+                                       <div class="field-items">
+                                          <div class="field-item even" property="content:encoded">
+                                             <!-- Hero -->
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </article>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+            </div>
+         </div>
+      </div>
+     
+     
+     
+     
+     
+     
+      <div id="main">
+      <div class="container">
+        <section id="content">
+          <div id="content-header">
+            <!-- <h1 class="title">Medical Office Software for Independent Medical Practices</h1> -->
+            <div class="tabs"></div>
+          </div>
+          <!-- /#content-header -->
+          <div id="content-area">
+            <div id="block-system-main" class="block block-system clearfix">
+              <div class="block-inner">
+                <div class="content">
+                  <article id="node-47" class="node node-page node--page--full">
+                    <header> <span property="dc:title"
+                        content="Medical Office Software for Independent Medical Practices"
+                        class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0"
+                        datatype="xsd:integer" class="rdf-meta element-hidden"></span> </header>
+                    <div class="content">
+                      <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+                        <div class="field-items">
+                          <div class="field-item even" property="content:encoded">
+                            <!-- Hero -->
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+
+  <div class="main-banner" id="top">
+    <video autoplay muted loop id="bg-video">
+        <source src="images/health.mp4" type="video/mp4" />
+    </video>
+</div>
+
+<!-- <div class="spacer_content2"></div> -->
+
+
+
+
+
+<!-- slidder start -->
+<div class="mobile-slider">
+  
+
+<div class="rendum">
+  <div class="new-slid">
+        <div class="img-content">
+          <img src="slider/1-4.jpg">
+            <div class="img-txt">
+              <h3>One Record</h3>
+              <p><b>All your health information in one place</b>
+
+     Track your medications, test results, upcoming appointments and more all in one place</p>
+     <div class="btn-services"><a href="one_record.php">Read More</a></div>
+            </div>
+        </div>
+  </div>
+
+  <div class="new-slid">
+        <div class="img-content">
+          <img src="slider/1-2.jpg">
+            <div class="img-txt">
+              <h3>One Lab</h3>
+              <p><b>Modern Software to run your Diagnostic Laboratory
+</b>
+
+OneLab platform offers a diagnostics digital lab management software that is
+fully customized to meet the needs of diagnostics laboratories
+.</p>
+
+<div class="btn-services"><a href="one_lab.php">Read More</a></div>
+
+            </div>
+        </div>
+  </div>
+
+
+  <div class="new-slid">
+        <div class="img-content">
+          <img src="slider/1-3.jpg">
+            <div class="img-txt">
+              <h3> One Doctor</h3>
+              <p><b>Empowering your practise to concentrate on what's most critical – your patients</b>
+Enhance decision making, patient safety and flow of information.</p>
+<div class="btn-services"><a href="one_doctor.php">Read More</a></div>
+            </div>
+        </div>
+  </div>
+
+  <div class="new-slid">
+        <div class="img-content">
+          <img src="slider/1-1.jpg">
+            <div class="img-txt">
+              <h3> One Connect</h3>
+              <p><b>OneHealth Online Solutions</b>
+OneConnect allows you to connect with patients anywhere, at anytime. It’s simple, secure and streamlined.</p>
+<div class="btn-services"><a href="one_connect.php">Read More</a></div>
+            </div>
+        </div>
+  </div>
+
+   
+  
+   
+   
+
+
+  
+</div>
+
+</div>
+
+
+
+<!-- slider end -->
+
+  <div class="banner-container banner_spacer" >
+   
+<div class="profile-container">
+  <div class="profile-box" style="background-image: url('slider/1-4.jpg');">
+    <div class="profile-box-content">
+      <h2 style="color: white; ">One Record</h2>
+      <p style="color: white;"><b>All your health information in one place</b>
+
+     Track your medications, test results, upcoming appointments, video consultation and more all in one place.</p>
+     <p class="btn-services"><a href="one_record.php">Read More</a></p>
+    </div>
+  </div>
+  <div class="profile-box" style="background-image: url('slider/1-2.jpg');">
+    <div class="profile-box-content">
+     <h2 style="color: white; ">One Lab</h2>
+      <p style="color: white;"><b>Modern Software to run your Diagnostic Laboratory
+</b>
+
+OneLab platform offers a diagnostics digital lab management software that is
+fully customized to meet the needs of diagnostics laboratories
+.</p>
+  <p class="btn-services"><a href="one_lab.php">Read More</a></p>
+    </div>
+  </div>
+  <div class="profile-box" style="background-image: url('slider/1-3.jpg');">
+    <div class="profile-box-content">
+     <h2 style="color: white; "> One Doctor</h2>
+      <p style="color: white;"><b>Empowering your practise to concentrate on what's most critical – your patients</b>
+Enhance decision making, patient safety and flow of information.</p>
+  <p class="btn-services"><a href="one_doctor.php">Read More</a></p>
+    </div>
+  </div>
+
+  <div class="profile-box" style="background-image: url('slider/1-1.jpg');">
+    <div class="profile-box-content">
+       <h2 style="color: white; "> One Connect
+</h2>
+      <p style="color: white;"><b>OneHealth Online Solutions</b>
+OneConnect allows you to connect with patients anywhere, video consultation at anytime. It’s simple, secure and streamlined.</p>
+  <p class="btn-services"><a href="one_connect.php">Read More</a></p>
+    </div>
+  </div>
+
+</div>
+
+
+
+    <div class="clear"></div>
+  </div>
+ 
+   
+
+
+
+     
+     
+     
+     
+     
+<!-- footer -->
+
+
+<style>
+    .row.full.blowout.no-padding {
+    margin: auto !important;
+}
+    
+    
+    
+</style>
+         <div class="container">
+           
+
+            <div class="footer-content-wrap">
+                   <div class="footer-logo">
+                       <div class="ft-logo">
+                           <a href="index.php"><img src="images/logo-footer.svg"></a>
+                       </div>
+                   </div>
+
+                   <div class="footer-one-content">
+                    <div class="first-nav">
+                        <h3>Services</h3>
+                        <ul>
+                             <!--<li><a href="about.php">Services</a></li>-->
+                          <li><a href="https://onehealthforall.com/one_connect.php">One Connect</a></li>
+                           <li><a href="https://onehealthforall.com/one_doctor.php">One Doctor</a></li>
+                            <li><a href="https://onehealthforall.com/one_lab.php">One Lab</a></li>
+                             <li><a href="https://onehealthforall.com/one_record.php">One Record</a></li>
+                             
+                        </ul>
+
+
+                    </div>
+                        
+                    </div>
+
+                    <div class="footer-one-content">
+                    <div class="first-nav">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="https://onehealthforall.com/about.php#tab-inbox">About Us</a></li>
+                            <li><a href="https://onehealthforall.com/mission.php#tab-new">Our Mission</a></li>
+                          <li><a href="https://onehealthforall.com/career.php#tab-store">Career</a></li>
+                           <li><a href="https://onehealthforall.com/ticket.php">Technical Support</a></li>
+                            
+                        </ul>
+
+
+                    </div>
+                        
+                    </div>
+
+                    <div class="footer-one-content">
+                    <div class="first-nav">
+                        <h3>Support</h3>
+                        <ul>
+                            <li><a href="https://onehealthforall.com/product-update.php">Product Update</a></li>
+                          <li><a href="https://onehealthforall.com/form.php">Contact</a></li>
+                           <li><a href="https://onehealthforall.com/demo.php">Demo</a></li>
+                            <li><a href="https://onehealthforall.com/pricing.php">Pricing</a></li>
+                        </ul>
+
+
+                    </div>
+                        
+                    </div>
+                    
+                    
+                    
+                    <div class="footer-one-content">
+                    <div class="first-nav">
+                      <h3>GET THE APP</h3>
+                        <ul>
+                            <li><a href="https://www.apple.com/app-store/" target="_blank"><img src="images/app-store.png" width="200" height="59" /></a></li>
+                          <li><a href="https://play.google.com/store/apps/details?id=com.ash.apollo" target="_blank"><img src="images/google-play.png" width="200" height="59" /></a></li>
+                         </ul>
+
+
+                    </div>
+                        
+                    </div>
+
+
+                       
+                   </div>
+                   
+              
+
+
+           </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+         </div>
+         <!-- metrics code -->
+      </div>
+
+<div class="footer2" style="text-align: center;">
+
+<div class="footer-sec-left">
+  <ul>
+    <li><a href="privacypolicy.php"> Privacy policy </a></li>
+  <!--   terms.php -->
+      <li><a href="termsofservice.php" > Terms </a></li>
+      <li><a href="disclaimer.php" > Disclaimer & Cancellation</a></li>
+        <!--<li><a href="#">Modern Slavery Act</a></li>-->
+       <!--   <li><a href="#"> Impressum </a></li>-- class="text-warning"> -->
+
+
+
+
+  </ul>
+
+
+</div>
+
+
+<div class="copyright"><p>Copyright &copy 2021 OneHealth</p></div>
+
+<div class="social-icon">
+  <ul> 
+    <li class="social-icons"> <a href="https://www.facebook.com/One-Health-For-All-101611355668641
+" target="_blank" title="">
+      <img src="./images/facebook-badge.svg">
+    </a> </li>
+
+
+     <li class="social-icons"> <a href="https://twitter.com/Onehealthforall" target="_blank" title="" >
+        <img src="./images/twitter.svg">
+     </a> </li>
+
+
+      <li class="social-icons"> <a href="https://www.instagram.com/onehealthforall/" target="_blank" title="">
+         <img src="./images/insta.svg">
+      </a> </li> 
+
+
+      <li class="social-icons"> <a href="https://www.youtube.com/channel/UC6UzSO-oYMhZN2fh69O3qhQ" target="_blank"  title="">
+         <img src="./images/youtube.svg">
+      </a> </li>
+       </ul>
+
+
+</div>
+
+
+
+
+
+  </div>
+
+       <!-- footer call buttons -->
+      <button class="cont_options" id="contact_pinned_btn"><i class="fas fa-phone-alt"></i> <span class="contactxt">Contact Us</span> </button>
+      <div class="contact_pinned_pop" id="conta_pinned_popid">
+         <div>
+            <div class="contactHeade">
+               <div>Contact Us</div>
+              <div id="close_piined_contact"><i class="far fa-times-circle"></i></div>
+            </div>
+            <div class="contact_pinn_options">
+               <ul>
+                  <li> <a href="sale.php"><i class="fa fa-phone" aria-hidden="true"></i> Get a call from sales</a> </li>
+                  <li> <a href="via-email.php" id="contacsale_email_btn"><i class="fa fa-envelope" aria-hidden="true"></i> Contact Sales via Email</a> </li>
+                  <li> <a href="ticket.php"><i class="fa fa-life-ring" aria-hidden="true"></i> Product / Technical Support</a> </li>
+                  <li> <a href="#"><i class="fa fa-life-ring" aria-hidden="true"></i> Call +1 774-202-4053 <br>
+                     10: 00 AM to 06:00 PM</a> 
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <!--<div class="pop_contact_email" id="pop_emailnocls">
+      <  <div class="pop_cotainer">-->
+      <!--      <div class="pop_insidecon">-->
+      <!--         <div class="left_popsection">-->
+      <!--            <img src="images/Email.png" />-->
+      <!--            <h3>Interested in OneHealth? Let's talk.</h3>-->
+      <!--            <p>Tell us about yourself and a OneHealth Solutions Consultant will contact you shortly.</p>-->
+      <!--         </div>-->
+      <!--         <div class="right_popsection">-->
+      <!--            <form>-->
+      <!--               <div class="form-group">-->
+      <!--                  <label for="exampleInputEmail1">First Name</label>-->
+      <!--                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">-->
+      <!--                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+      <!--               </div>-->
+      <!--               <div class="form-group">-->
+      <!--                  <label for="exampleInputPassword1">Last Name</label>-->
+      <!--                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">-->
+      <!--               </div>-->
+      <!--               <div class="form-group">-->
+      <!--                  <label for="exampleInputPassword1">Email</label>-->
+      <!--                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">-->
+      <!--               </div>-->
+      <!--               <div class="form-group">-->
+      <!--                  <label for="exampleInputPassword1">Office Number</label>-->
+      <!--                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">-->
+      <!--               </div>-->
+      <!--               <div class="form-group">-->
+      <!--                  <label for="exampleInputPassword1">Specialty</label>-->
+      <!--                  <select class="form-control" id="exampleFormControlSelect1">-->
+      <!--                     <option>1</option>-->
+      <!--                     <option>2</option>-->
+      <!--                     <option>3</option>-->
+      <!--                     <option>4</option>-->
+      <!--                     <option>5</option>-->
+      <!--                  </select>-->
+      <!--               </div>-->
+      <!--               <div class="form-group">-->
+      <!--                  <label for="exampleInputPassword1">I am a...</label>-->
+      <!--                  <select class="form-control" id="exampleFormControlSelect1">-->
+      <!--                     <option>1</option>-->
+      <!--                     <option>2</option>-->
+      <!--                     <option>3</option>-->
+      <!--                     <option>4</option>-->
+      <!--                     <option>5</option>-->
+      <!--                  </select>-->
+      <!--               </div>-->
+      <!--               <div class="form-group">-->
+      <!--                  <label for="exampleInputPassword1">Number of Providers</label>-->
+      <!--                  <select class="form-control" id="exampleFormControlSelect1">-->
+      <!--                     <option>1</option>-->
+      <!--                     <option>2</option>-->
+      <!--                     <option>3</option>-->
+      <!--                     <option>4</option>-->
+      <!--                     <option>5</option>-->
+      <!--                  </select>-->
+      <!--               </div>-->
+      <!--               <div class="form-group">-->
+      <!--                  <label for="exampleInputPassword1">Product Interest</label>-->
+      <!--                  <select class="form-control" id="exampleFormControlSelect1">-->
+      <!--                     <option>1</option>-->
+      <!--                     <option>2</option>-->
+      <!--                     <option>3</option>-->
+      <!--                     <option>4</option>-->
+      <!--                     <option>5</option>-->
+      <!--                  </select>-->
+      <!--               </div>-->
+      <!--               <div class="form-group">-->
+      <!--                  <label for="exampleInputPassword1">Preferred Date</label>-->
+      <!--                  <input type="date" class="form-control" id="exampleInputPassword1" placeholder="Date">-->
+      <!--               </div>-->
+      <!--               <button type="submit" class="btn button-primary">Submit</button>-->
+      <!--            </form>-->
+      <!--         </div>-->
+      <!--      </div>-->
+      <!--   </div>-->
+      <!--   <div class="popu_emailclose"></div>-->
+      <!--   <button class="close_popn" id="close_emailnobtn">Close</button>-->
+      <!--</div>-->
+      <!-- footer call buttons -->
+
+      <script>
+         $(".cd-tabs__item").click(function(){
+           $(window).scrollTop(0)
+           
+         });
+         
+         
+         
+         $(document).ready(function(){
+         
+         $(".tab-mobile-toogle").click(function(){
+           
+           
+           $("ul.cd-tabs__list").toggle(function(){
+             $(".svgUp").toggleClass("topup");
+             
+             
+             });
+         });
+         
+         
+         
+         });
+         
+         
+         
+         
+      </script>
+      
+            <script src="tabassests/js/util.js"></script>
+      <script src="tabassests/js/main.js"></script>
+
+ <script type="text/javascript">
+    $(function () {
+      $('#vidBox').VideoPopUp({
+        backgroundColor: "#17212a",
+        opener: "video1",
+        idvideo: "v1",
+        pausevideo: false
+      });
+    });
+
+
+  </script>
+
+
+  <script>
+    
+
+    $('.rendum').slick({
+  dots: false,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 2,
+       autoplay: true,
+  autoplaySpeed: 2000,
+  slidesToScroll: 2,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+    
+        slidesToScroll: 2,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+
+  </script>
+
+
+
+
+
+   </body>
+</html>

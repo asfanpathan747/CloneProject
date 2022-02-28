@@ -1,0 +1,87 @@
+<div class="Main-Navbar-Container">
+  <div class="Navbar-Image">
+    <img src="../../assets/Images/mainLogo.svg" alt="" />
+  </div>
+
+  <nav class="NavLinks">
+    <ul>
+      <li>
+        <a href="#" class="Services-Link">Services
+          <div class="Services-Link-Container">
+            <div class="Platform-Data">
+              <div class="Platform-Img">
+                <img src="../../assets/Images/mainLogo.svg" alt="" />
+              </div>
+              <div class="Platform-Heading">
+                <h5>The OneHealth Platform</h5>
+              </div>
+              <div class="Platform-Content">
+                <p>OneHealth is built for the workflows of Laboratories, Doctors and patients, allowing you to
+                  efficiently manage all of the major functions.</p>
+              </div>
+            </div>
+
+            <div class="Platform-Links">
+              <div class="One-Connect-Container" *ngFor="let item of HoverData">
+                <img src={{item.img}} height="60px" width="60px">
+                <div class="One-Connect">
+                  <h5>{{item.title}}</h5>
+                  <p>{{item.des}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </li>
+
+      <!-- second link code start here -->
+      <li>
+        <a href="" class="About-Link">About
+          <div class="About-Link-Container">
+            <div class="Platform-Data">
+              <div class="Platform-Img">
+                <img src="../../assets/Images/mainLogo.svg" alt="" />
+              </div>
+              <div class="Platform-Heading">
+                <h5>The OneHealth Platform</h5>
+              </div>
+              <div class="Platform-Content">
+                <p>OneHealth is built for the workflows of Laboratories, Doctors and patients, allowing you to
+                  efficiently manage all of the major functions.</p>
+              </div>
+            </div>
+
+             <div class="Side-Links">
+                  <a href="" *ngFor="let link of AboutSideLinks">{{link}}</a>
+             </div>
+            </div>
+        </a>      
+      </li>
+
+      <!-- Support Link code start here -->
+      <li>
+        <a href="" class="Support-Link">Support
+          <div class="Support-Link-Container">
+              <a href="" *ngFor="let Slink of SupportLinks">{{Slink}}</a><br>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="Right-Button-Anchor">
+    <a href="">Consult Doctor</a>
+    <a href="">Demo</a>
+    <a href="">Pricing</a>
+    
+    <button class="Account-Button"> 
+      <img src="../../assets/Images/acc.svg" alt=""  class="Person-Img">  
+       My Account
+
+       <div class="My-Account-Links">
+         <button>Login</button><br>
+         <button>SignUp</button>
+       </div>
+    </button>
+  </div>
+</div>

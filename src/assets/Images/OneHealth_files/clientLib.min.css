@@ -1,0 +1,121 @@
+/*!* Proactive Modal window v1.4 */html,body,div,p,a,ol,ul,li{margin:0;padding:0;border:0;vertical-align:baseline}
+.dmc-proactivechat,.dmc-proactivechat *{box-sizing:border-box}
+.dmc-proactivechat{height:auto;max-width:400px;width:calc(100% - 50px);border-radius:15px}
+.dmc-proactivechat.c2c-proactive-modal,.dm0.dmc-proactivechat.c2c-proactive-modal{background-color:#00bceb;padding:20px 20px 0 20px;margin-bottom:0}
+.dmc-proactivechat .proac-container{background-color:#fff;height:auto;margin:0 auto;max-width:360px;width:100%;padding:20px 16px;margin-bottom:20px}
+.dmc-proactivechat .proac-head{display:flex;margin:0 auto 10px}
+.dmc-proactivechat .proac-head .cisco-icon{width:10%}
+.dmc-proactivechat .proac-head .cisco-icon a{float:right;width:15px;height:15px;background:url('../../../../../c/dam/assets/dmr/letushelp/close-icon-teal.png') no-repeat}
+.dm0.dmc-proactivechat .proac-head .cisco-icon a,.no-touch .dm0.dmc-proactivechat .proac-head .cisco-icon a:hover,.no-touch .dm0.dmc-proactivechat .proac-head .cisco-icon a:active{border-bottom:0}
+.dmc-proactivechat .proac-head .cisco-logo img,.dmc-proactivechat .proac-head .cisco-icon img{display:none}
+.proac-head .cisco-logo{width:18%;background:url('../../../../../c/dam/assets/dmr/letushelp/cisco-logo-teal.png') no-repeat;background-size:contain}
+.proac-head .proac-content{padding:0 15px;width:72%}
+.proac-head .proac-content p{color:#014468;font-size:20px;line-height:1.2em;font-family:CiscoSans,"Helvetica Neue",HelveticaNeue,Helvetica,Arial,"Nimbus Sans L",sans-serif;font-weight:300;margin-bottom:0}
+.dmc-proactivechat .cta{text-align:right;margin:0 auto}
+.dmc-proactivechat .cta li{display:inline-block;margin-left:5px;margin-bottom:20px}
+.dmc-proactivechat .cta li:first-child{display:none}
+.proac-container .content{float:left;font-family:CiscoSans,"Helvetica Neue",HelveticaNeue,Helvetica,Arial,"Nimbus Sans L",sans-serif;font-style:normal;font-weight:normal;font-size:16px;line-height:1.25em;color:#014468}
+.dmc-proactivechat .proac-container ul{margin-left:55px;margin-bottom:0}
+.dmc-proactivechat .cta .dmc-button{padding:5px 20px 6px;border-radius:100px;line-height:1.5em;min-width:140px;display:inline-block;text-align:center}
+.dmc-proactivechat .cta .dmc-button.pal-6{background:transparent;border:1px solid #0d274d;color:#0d274d}
+.no-touch .dmc-proactivechat .cta .dmc-button.pal-6:hover{background-color:#18365a;border:1px solid #18365a;color:#fff}
+.no-touch .dmc-proactivechat .cta .dmc-button.pal-6:active{background-color:#122843;border:1px solid #122843;color:#fff}
+.dmc-proactivechat .cta .dmc-button.pal-4{background-color:#1e4471;border:1px solid #1e4471;color:#fff}
+.dmc-proactivechat .cta .dmc-button.pal-4:hover{background-color:#34577f;border:1px solid #34577f;color:#fff}
+.dmc-proactivechat .cta .dmc-button.pal-4:active{background-color:#4b698d;border:1px solid #4b698d;color:#fff}
+.dmc-proactivechat .proac-container ul li{font-family:CiscoSans,"Helvetica Neue",HelveticaNeue,Helvetica,Arial,"Nimbus Sans L",sans-serif;font-style:normal;font-weight:300;font-size:16px;line-height:1.25em;color:#4d4c4c;margin-left:0;list-style-type:none}
+.proac-container li:first-child{margin-bottom:10px}
+html[dir="rtl"] .proac-head .cisco-logo{float:right}
+html[dir="rtl"] .proac-head .proac-content{padding:0 15px 0 0}
+html[dir="rtl"] .dmc-proactivechat .proac-head .cisco-icon{float:left;padding:0 20px 0 0}
+html[dir="rtl"] .proac-container .content{float:right}
+html[dir="rtl"] .dmc-proactivechat .proac-container ul{margin-right:55px}
+html[dir="rtl"] .dmc-proactivechat .proac-container ul li{margin-right:0}
+html[dir="rtl"] .dmc-proactivechat .cta li{margin-left:5px;margin-right:0}
+html[dir="rtl"] .dmc-proactivechat .cta{text-align:left}
+@media only screen and (min-width:37.5em){.dmc-proactivechat{width:100%}
+.dmc-proactivechat .cta li:first-child{display:inline-block}
+}
+
+/*! Section Container v1.1 */.dmc-section{width:100%}
+.ie .dmc-section{min-height:1px}
+
+
+/*!* Triple Marquee v1.3 */.blade-marq3>.col{display:block !important;width:100% !important;max-width:100% !important}
+.dmc-mq3{position:relative;width:100%;max-width:100%;overflow:hidden;flex:0 1 100%}
+.dmc-mq3 .pnls{position:relative;max-width:100%;display:flex;flex-wrap:nowrap;overflow:auto}
+.dmc-mq3 .pnl{position:relative;box-sizing:content-box;min-width:288px;min-height:400px;width:90vw;flex-shrink:0;flex:1 0 auto;border-right:5px solid white;outline:0}
+.dmc-mq3 .pnl:nth-child(2){order:-1}
+html:not([dir="rtl"]) .dmc-mq3 .pnl:last-child,html[dir="rtl"] .dmc-mq3 .pnl:first-child{border-right:0}
+.dmc-mq3 .pnl .bg,.dmc-mq3 .pnl .bg img,.dmc-mq3 .pnl .bg::after{position:absolute;top:0;left:0;right:0;bottom:0;height:100%;width:100%}
+.dmc-mq3 .pnl-cnt{position:absolute;top:0;left:0;right:0;bottom:0;display:flex;flex-direction:column;justify-content:flex-end;margin-bottom:0;padding:20px}
+.dmc-mq3 .pnl .bg img{object-fit:cover;object-position:center}
+.dmc-mq3 .pnl .bg::after{content:' ';top:auto;height:60%;background:linear-gradient(0,rgba(0,0,0,0.6) 0,rgba(0,0,0,0.4) 50%,rgba(0,0,0,0) 100%);transition:all 500ms ease-out}
+.dmc-mq3 .pvw{position:relative;display:none;padding:0 20px}
+.dmc-mq3 .cnt{text-align:center;position:relative;padding:20px}
+.dmc-mq3 .cnt *{text-align:center}
+.dmc-mq3 h1,.dmc-mq3 h2,.dmc-mq3 .pri-1{text-align:center;font-size:1.25em;margin:0 0 .526em;line-height:1.211em}
+.dmc-mq3 .cnt p{font-size:1em}
+.dmc-mq3 .cnt .play-cta{margin:0 auto;min-width:40px;height:54px;padding:0}
+.dmc-mq3 .cnt .play-cta svg{width:40px;height:40px}
+.dmc-mq3 .cnt .play-cta span{line-height:40px;padding-left:50px}
+html[dir="rtl"] .dmc-mq3 .cnt .play-cta span{padding-left:0;padding-right:50px}
+.dmc-mq3 nav{position:absolute;top:0;left:0;z-index:2}
+@media only screen and (min-width:37.5em){.dmc-mq3 .pnls{min-height:500px}
+.dmc-mq3 .pnl{min-width:530px;width:530px;min-height:500px}
+.dmc-mq3 h1,.dmc-mq3 h2,.dmc-mq3 .pri-1{font-size:1.375em}
+}
+@media only screen and (min-width:64em){.dmc-mq3 .pnl{min-height:532px}
+.dmc-mq3 h1,.dmc-mq3 h2,.dmc-mq3 .pri-1{font-size:1.75em}
+}
+@media only screen and (min-width:100em){.dmc-mq3 .pnl{min-width:0;width:33%}
+}
+@media only screen and (min-width:64em){.js.no-touch .dmc-mq3 .pnls{min-height:532px;overflow:hidden}
+.js.no-touch .dmc-mq3 .pnl{position:absolute;top:0;bottom:0;width:33.3333%;min-width:0;left:50%;transform:translateX(-50%);transition:width 150ms ease-in;overflow:hidden;border-left:5px solid white}
+.js.no-touch .dmc-mq3 .pnl::after{content:' ';position:absolute;height:100%;top:0;left:0;right:0;pointer-events:none;background:rgba(0,0,0,0.75);opacity:0;transition:all 1s cubic-bezier(.09,.76,.52,1)}
+html:not([dir="rtl"]).js.no-touch .dmc-mq3 .pnl:nth-child(2),html[dir="rtl"].js.no-touch .dmc-mq3 .pnl:last-child{left:0;right:auto;width:calc(33.3333% - 5px);border-left:0;transform:none}
+html:not([dir="rtl"]).js.no-touch .dmc-mq3 .pnl:last-child,html[dir="rtl"].js.no-touch .dmc-mq3 .pnl:nth-child(2){left:auto;right:0;width:calc(33.3333% - 5px);border-right:0;transform:none}
+.js.no-touch .dmc-mq3 .pvw{display:block;opacity:1;transform:translateY(0);transition:all 150ms ease-in;transition-delay:100ms}
+.js.no-touch .dmc-mq3 .cnt{position:absolute;bottom:-40px;width:570px;left:calc(50% - 285px);opacity:0}
+.js.no-touch .dmc-mq3 .pnl.active{transition:all 500ms cubic-bezier(.09,.76,.52,1);width:60% !important}
+.js.no-touch .dmc-mq3 .pnl.on-top{z-index:1}
+.js.no-touch .dmc-mq3.active .pnl:not(.active)::after{transition-duration:3s;opacity:1}
+.js.no-touch .dmc-mq3 .pnl.active .pvw{transition-duration:.00s;transition-delay:.00s;opacity:0}
+.js.no-touch .dmc-mq3 .pnl.active .cnt{transition:all 250ms cubic-bezier(.09,.76,.52,1);opacity:1;bottom:0}
+}
+
+/*!* Quick Task Bar v1.1 */.dmc-qt-bar,.dmc-qt-bar *{box-sizing:border-box}
+.dmc-qt-bar.thmd-1{padding:16px}
+.dmc-qt-bar ul{list-style-type:none;margin-bottom:0;-webkit-column-count:2;-moz-column-count:2;-ms-column-count:2;column-count:2;-webkit-column-gap:20px;-moz-column-gap:20px;-ms-column-gap:20px;column-gap:20px}
+.dmc-qt-bar ul li{display:table;margin-left:0}
+.dmc-qt-bar.thmd-1 ul li a,.no-touch .dmc-qt-bar.thmd-1 ul li a:hover{border-bottom:0}
+html[dir="rtl"] .dmc-qt-bar ul li{margin-right:0}
+@media only screen and (min-width:37.5em){.dmc-qt-bar.thmd-1{padding:18px}
+.dmc-qt-bar ul{-webkit-column-count:3;-moz-column-count:3;-ms-column-count:3;column-count:3;-webkit-column-gap:25px;-moz-column-gap:25px;-ms-column-gap:25px;column-gap:25px}
+}
+@media only screen and (min-width:64em){.dmc-qt-bar.thmd-1{padding:20px}
+.dmc-qt-bar ul{-webkit-column-count:1;-moz-column-count:1;-ms-column-count:1;column-count:1;-webkit-column-gap:0;-moz-column-gap:0;-ms-column-gap:0;column-gap:0;display:table;table-layout:fixed;width:100%;border-collapse:separate;border-spacing:10px 0}
+.dmc-qt-bar ul li{text-align:center;display:table-cell}
+.dmc-qt-bar li a span{background:url('clientLib/quick-task-bar.svg');width:40px;height:30px;display:block;margin:0 auto 20px;transition:all .1s ease 0}
+.dmc-qt-bar span.d-guides{background-position:-40px 0}
+.dmc-qt-bar span.l-locator{background-position:-40px -30px}
+.dmc-qt-bar span.c-cert{background-position:-40px -60px}
+.dmc-qt-bar span.dwnls{background-position:-40px -90px}
+.dmc-qt-bar span.cmnty{background-position:-40px -120px}
+.dmc-qt-bar span.support{background-position:-40px -150px}
+.dmc-qt-bar span.f-ppl{background-position:-40px -180px}
+.dmc-qt-bar span.f-tools{background-position:-40px -210px}
+.dmc-qt-bar span.shr-docs{background-position:-40px -240px}
+.dmc-qt-bar span.bugs{background-position:-40px -270px}
+.no-touch .dmc-qt-bar li:hover a span{-webkit-transform:scale(1.2,1.2);-ms-transform:scale(1.2,1.2);transform:scale(1.2,1.2)}
+}
+@media only screen and (min-width:80em){.dmc-qt-bar ul{max-width:1280px;margin:0 auto}
+}
+
+
+/*!* DM Team -  Image 2.0 v1.4 */.dm0 .lightbox-link{position:relative;display:block}
+.dm0 .lightbox-link a img.image-link-icon{position:absolute;bottom:10px;width:30px;height:30px;right:10px}
+.dm0 a.img-link,.dm0[class*="thm"] a.img-link,.dm0[class*="thm"] a.img-link:hover{border-bottom:0}
+html[dir="rtl"] .dm0 .lightbox-link img.image-link-icon{left:10px;right:auto}
+@media only screen and (min-width:37.5em){.dm0 .lightbox-link{display:inline-block}
+}

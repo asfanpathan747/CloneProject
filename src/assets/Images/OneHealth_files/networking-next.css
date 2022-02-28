@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'networking-next';
+    src: url('./networking-next.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+[class*='nnicon-']:before{
+	display: inline-block;
+   font-family: 'networking-next';
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale
+}
+.nnicon-logo:before{content:'\004f';}
+
+.nnicon-text {
+    display: inline-block;
+    font-family: 'networking-next',Arial,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    top: 4px;
+    padding: 0 2px;    
+}

@@ -1,0 +1,62 @@
+$(window).scroll(function() {
+    if ($(window).scrollTop() > 100) {
+        
+        $(".contactxt").hide(500);
+        $(".cont_options i").css("margin-right", "0");
+        $(".cont_options").css({"padding": "10px 14px"});
+        
+    }
+    else {
+        
+        $(".contactxt").show(500);
+        $(".cont_options i").css("margin-right", "8px");
+        
+        
+        
+    }
+});
+
+
+$(document).ready(function(){
+$("#contact_pinned_btn").click(function(){
+    $("#conta_pinned_popid").toggle();
+  });
+
+  $("#close_piined_contact").click(function(){
+    $("#conta_pinned_popid").toggle();
+  });
+
+
+  
+
+  $("#close_emailnobtn").click(function(){
+    $("#pop_emailnocls").animate({left: "-103%"});
+  });
+
+  $("#contacsale_email_btn").click(function(){
+    $("#pop_emailnocls").animate({left: "0"});
+    $("#conta_pinned_popid").toggle();
+  });
+
+  
+
+  $("#pop_emailnocls").css({left: "-103%"});
+  //$("#pop_emailnocls").css({left: "0"});
+
+});
+
+
+// $(document).ready(function(){
+  
+//   $("li").click(function(){
+//   $("li").removeClass("active"); 
+// });
+
+// $("li").click(function(){
+//   $(this).addClass("active");
+// });
+  
+  
+// });
+
+

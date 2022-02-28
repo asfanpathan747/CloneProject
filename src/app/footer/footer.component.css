@@ -1,0 +1,111 @@
+.Footer-Container{
+    display: flex;
+}
+.Footer-Image{
+   width: 320px;
+}
+.Service_Link{
+   width: 320px;
+   text-align: center;
+}
+.Service_Link a{
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    color: #42526E;
+    margin: 10px 0px;
+    
+}
+.Service_Link h3{
+    color: #42526E;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.About-Links{
+    width: 320px;
+    text-align: center;
+ }
+ .About-Links a{
+     display: block;
+     text-decoration: none;
+     font-size: 18px;
+     color: #42526E;
+     margin: 10px 0px;
+ }
+ .About-Links h3{
+     color: #42526E;
+     font-weight: 700;
+     letter-spacing: 0.02em;
+     font-size: 18px;
+     margin-bottom: 15px;
+     text-transform: uppercase;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ .Support-Link{
+    width: 320px;
+        text-align: center;
+ }
+ .Support-Link a{
+     display: block;
+     text-decoration: none;
+     font-size: 18px;
+     color: #42526E;
+     margin: 10px 0px;
+ }
+ .Support-Link h3{
+     color: #42526E;
+     font-weight: 700;
+     letter-spacing: 0.02em;
+     font-size: 18px;
+     margin-bottom: 15px;
+     text-transform: uppercase;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ .Apps-Link{
+     width: 320px;
+ }
+ .Apps-Link h3{
+     font-size: 23px;
+     font-weight: 700px;
+     color: #42526E;
+ }
+
+
+ .Copyright-Container{
+     width: 100%;
+     height: 50px;
+     display: flex;
+ }
+ .Last-Links{
+     width: 600px;
+     text-align: center;
+ }
+ .Last-Links a{
+     text-decoration: none;
+     color: #42526E;
+     padding-left: 20px;
+     font-size: 18px;
+ }
+ .Copyright-Container p{
+     font-size: 19px;
+     color: #42526E;
+     position: relative;
+     bottom: 20px;
+ }
+
+ .Online-Plat{
+     width: 400px;
+     margin-left: 200px;
+ }
+ .Online-Plat img{
+     padding: 10px;
+     position: relative;
+     bottom: 20px;
+ }

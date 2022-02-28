@@ -1,0 +1,57 @@
+.Body-Animation-Video{
+    width: 100%;
+    height: 100vh;
+}
+.Images-Data{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    /* background-color:black; */
+    overflow: hidden;
+}
+.First-Doctor-Image{
+    width: 25%;
+    height: 400px;
+    background-image: url(../../assets/Images/healthcareimage.svg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    transition:all 0.4s ease-out;
+}
+.First-Doctor-Image:hover{
+    width: 60%;
+}
+.Second-Doctor-Image{
+    width: 25%;
+    height: 400px;
+    background-image: url(../../assets/Images/onli.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    transition:all 0.4s ease-out;
+}
+.Second-Doctor-Image:hover{
+    width: 60%;
+}
+.Third-Doctor-Image{
+    width: 25%;
+    height: 400px;
+    background-image: url(../../assets/Images/onlineapo.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    transition:all 0.4s ease-out;
+}
+.Third-Doctor-Image:hover{
+    width: 60%;
+}
+.Forth-Doctor-Image{
+    width: 25%;
+    height: 400px;
+    background-image: url(../../assets/Images/test.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    transition:all 0.4s ease-out;
+}
+.Forth-Doctor-Image:hover{
+    width: 60%;
+}
+

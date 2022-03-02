@@ -52,10 +52,12 @@
    font-size: 17px;
    font-family: "Source Sans Pro", sans-serif;
    margin-left: 35px;
+   height: 90px;
 }
 .Services-Link:hover{
     border-bottom: 3px solid orange;
     color: orange;
+    height: 100px;
 }
 .Services-Link:hover .Services-Link-Container{
       display: flex;
